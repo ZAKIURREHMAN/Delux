@@ -1,0 +1,59 @@
+.Frondimg-container{
+    display: flex;
+}
+.Left-button{
+    height: 520px;
+    width: 15px;
+    
+}
+.Left-button i{
+    font-size: 15px;
+    margin: 260px 0px;
+    cursor: pointer;
+}
+.Left-button i:hover{
+    box-shadow: 3px 3px 7px 9px rgb(255, 0, 170);
+}
+.center-images{
+    height: 520px;
+    width: 100%;
+    flex-grow: 2;
+    overflow: hidden;
+    background-color: rgb(253, 249, 255);
+}
+.center-images img{
+    height: 500px;
+    width: 100%;
+}
+.right-button{
+    height: 520px;
+    width: 15px;
+}
+.right-button i{
+    font-size: 15px;
+    margin: 260px 0px;
+    cursor: pointer;
+}
+.right-button i:hover{
+    box-shadow: 3px 3px 7px 9px rgb(255, 0, 170);
+}
+.headingcontainer{
+    text-align: center;
+}
+
+.headingcontainer p{
+    font-family: 'Bungee Shade', cursive;
+}
+#btn{
+    height: 70px;
+    width: 150px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 115, 0);
+    cursor: pointer;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#btn:hover{
+background-color: rgb(204, 0, 255);
+}

@@ -1,0 +1,36 @@
+.Register-container{
+    height: 80vh;
+    margin: 10px 0px;
+    background: linear-gradient(to right,  rgb(255, 35, 138), rgb(210, 131, 255) , rgb(0, 255, 242) , rgb(247, 213, 20));
+}
+.Register-container h1{
+    font-family: 'Rubik Dirt', cursive;
+}
+.Register-form{
+    top: 150px;
+    position: relative;
+    text-align: center;
+    margin: auto 0px;
+}
+.Register-form input{
+    height: 30px;
+    margin: 10px 0px;
+    outline: none;
+    box-shadow: 3px 3px 5px 2px rgb(234, 0, 255);
+    border: none;
+    width: 250px;
+
+}
+.Register-form button{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(194, 145, 179);
+    outline: none;
+    border: 1px solid rgb(229, 255, 0);
+    cursor: pointer;
+    font-family: 'Rubik Dirt', cursive;
+}
+.Register-container button:hover{
+    background-color: rgb(140, 0, 255);
+    border: 1px solid rgb(0, 255, 85);
+}

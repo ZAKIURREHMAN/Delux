@@ -1,0 +1,35 @@
+.login-container{
+    height: 80vh;
+    margin: 10px 0px;
+    background: linear-gradient(to right,  rgb(255, 141, 35), rgb(131, 255, 178) , yellow , pink);
+}
+.login-container h1{
+    font-family: 'Rubik Dirt', cursive;
+}
+.Login-Form{
+    top: 150px;
+    position: relative;
+    text-align: center;
+    margin: auto 0px;
+}
+.Login-Form input{
+    height: 30px;
+    margin: 10px 0px;
+    outline: none;
+    box-shadow: 3px 3px 5px 2px rgb(9, 255, 0);
+    border: none;
+    width: 250px;
+}
+.Login-Form button{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(255, 0, 179);
+    outline: none;
+    border: 1px solid rgb(229, 255, 0);
+    cursor: pointer;
+    font-family: 'Rubik Dirt', cursive;
+}
+.Login-Form button:hover{
+    background-color: rgb(255, 123, 0);
+    border: 1px solid rgb(174, 0, 255);
+}

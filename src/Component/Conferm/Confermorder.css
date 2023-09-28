@@ -1,0 +1,118 @@
+.order-container {
+    height: 100%;
+    background: linear-gradient(to right, rgb(0, 255, 76), rgb(255, 76, 225), rgb(154, 3, 255), rgb(21, 255, 0));
+    display: flex;
+}
+
+.order-catagory {
+    height: 100px;
+    width: 90px;
+    margin: 160px 0px;
+}
+
+.order-catagory i {
+    font-size: 30px;
+    margin: 20px 5px;
+}
+
+.order-catagory h3 {
+    width: 70px;
+    left: 50px;
+    margin: -45px 40px;
+}
+
+.nameinputs {
+    height: 100%;
+    width: 90px;
+    flex-grow: 2;
+    margin: 100px 0px;
+    /* background-color: rgb(192, 31, 31); */
+    text-align: center
+}
+
+.nameinputs input {
+    height: 150px;
+    height: 30px;
+    margin: 10px 0px;
+    box-shadow: 10px 10px 20px 29px rgb(255, 197, 6);
+    text-align: center;
+    border: 1px solid saddlebrown;
+    outline: none;
+}
+
+.price-order {
+    height: 100px;
+    width: 90px;
+    margin: 160px 0px;
+}
+
+.price-order i {
+    font-size: 30px;
+    margin: 20px -15px;
+}
+
+.price-order h3 {
+    width: 50px;
+    left: 50px;
+    margin: -50px 20px;
+}
+
+.second-container {
+    height: 100%;
+    background: linear-gradient(to right, rgb(3, 102, 33), rgb(155, 211, 2), rgb(255, 188, 3), rgb(255, 123, 0));
+    display: flex;
+}
+
+.carnumbers {
+    height: 100px;
+    background-color: blanchedalmond;
+    width: 90px;
+}
+.carnumbers input{
+    width: 90%;
+    height: 50px;
+    background-color: chartreuse;
+    outline: none;
+    border: none;
+    text-align: center;
+    margin: 20px 0px;
+}
+.message {
+    height: 100px;
+    flex-grow: 2;
+    text-align: center;
+}
+.message textarea{
+    width: 80%;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 60px;
+    text-align: center;
+    margin: 20px 5px;
+    border: none;
+    outline: none;
+}
+.fully-address {
+    height: 100px;
+    width: 100px;
+}
+.fully-address input{
+    width: 90%;
+    height: 50px;
+    background-color: chartreuse;
+    outline: none;
+    border: none;
+    text-align: center;
+    margin: 20px 0px;
+}
+.submitbttn{
+    text-align: center;
+}
+.submitbttn button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    background-color: thistle;
+    cursor: pointer;
+}

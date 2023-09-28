@@ -1,0 +1,47 @@
+.contect-container{
+    margin: 10px 0px;
+}
+
+.contect-container aside iframe{
+ width: 99%;
+ height: 400px;
+}
+.commentpages h1{
+    text-align: center;
+    color: aliceblue;
+}
+.commentpages{
+    background-image: url('/public/contect/contects.webp');
+    text-align: center;
+    height: 900px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.commentpages input{
+    margin: 10px 0px;
+    height: 25px;
+    width: 200px;
+    border: none;
+    outline: none;
+    color: rgb(255, 238, 0);
+    background-color: rgb(60, 70, 70);
+}
+.commentpages textarea{
+    border: none;
+    outline: none;
+    color: rgb(255, 238, 0);
+    background-color: rgb(60, 70, 70);
+}
+.commentpages button{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: rgb(255, 238, 0);
+    background-color: rgb(60, 70, 70);
+}
+.commentpages button:hover{
+    background-color: rgb(71, 107, 0);
+    color: aliceblue;
+}

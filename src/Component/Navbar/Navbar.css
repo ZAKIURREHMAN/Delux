@@ -1,0 +1,78 @@
+.navbar-container{
+    margin: 3px 0px;
+    display: flex;
+    /* border: 2px solid red; */
+}
+.logo {
+    height: 100px;
+    width: 150px;
+}
+.logo img{
+    height: 100px;
+    background-color: rgb(148, 166, 167);
+    width: 150px;
+}
+.NavbarData{
+    background-color: rgb(148, 166, 167);
+    height: 100px;
+    width: 100%;
+    
+}
+.NavbarData ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 60px;
+}
+.NavbarData ul li{
+    list-style-type: none;
+    margin: 0px 15px;
+}
+.NavbarData ul li:hover{
+    box-shadow: 5px 0px 4px 1px rgb(255, 166, 0);
+}
+.NavbarData ul li a{
+    text-decoration: none;
+    font-family: 'Rubik Dirt', cursive;
+}
+.first{
+    color: #000;
+    text-decoration: none;
+}
+#checkbox,#bar{
+    display: none;
+}
+@media(width<768px) {
+    #bar{
+        display: block;
+        position: absolute;
+        right: 10px;
+        font-size: 30px;
+        top: 59px;
+    }
+    .NavbarData ul{
+        position: absolute;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin: 110px -43px;
+        height: 80vh;
+        background: #2c3e50;
+        left: -100%;
+        width: 105%;
+        align-items: center;
+        transition: all .1s;
+    }
+    .NavbarData ul li{
+        margin: 15px 0px;
+    }
+    .NavbarData ul li a{
+        position: relative;
+        left: -10px;
+        width: 100px;
+        color: yellow;
+    }
+    #checkbox:checked~ul{
+        left: 0;
+    }
+}

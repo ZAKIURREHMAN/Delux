@@ -1,0 +1,70 @@
+.services-container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    justify-content: space-evenly;
+    background-color: rgb(126, 111, 131);
+    width: 100%;
+}
+.services-container img{
+    height: 340px;
+    width: 320px;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+    margin: 21px 10px;
+    border-top-left-radius:30px ;
+    border-top-right-radius:30px ;
+}
+.services-container img:hover{
+    box-shadow: 5px 5px 10px 10px green;
+}
+.imgplustext h3{
+    text-align: center;
+    margin: -10px 0px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(180, 180, 166);
+}
+.imgplustext h5{
+    height: 100%;
+    width: 200px;
+    text-align: center;
+    margin: 10px 80px;
+    color: rgb(203, 238, 175);
+}
+.processingheading{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 255, 21);
+}
+.cleaning-process{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(61, 78, 64);
+}
+.proces-icons{
+    height: 100%;
+    width: 200px;
+}
+.proces-icons h3{
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.proces-icons h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(175, 175, 177);
+    text-align: center;
+}
+.proces-icons i{
+    font-size: 80px;
+    margin: 10px 50px;
+}
+.proces-icons i:hover{
+    border: 15px solid rgb(255, 174, 0);
+    border-radius: 100px;
+    background-color: violet;
+}

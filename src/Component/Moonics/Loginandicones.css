@@ -1,0 +1,32 @@
+.mainlgoninandiconcontainer{
+display: flex;
+justify-content: space-between;
+background-color: rgb(156, 160, 158);
+}
+.login-icon{
+    height: 30px;
+    width: 100px;
+    text-align: center;
+}
+.login-icon i{
+    font-size: 20px;
+    color: rgb(255, 0, 212);
+    
+}
+#logins{
+    text-decoration: none;
+}
+.login-icon span{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 0, 212);
+    font-size: 23px;
+}
+.darkmode-icon{
+    height: 30px;
+    width: 30px;
+}
+.darkmode-icon i{
+    font-size: 30px;
+    cursor: pointer;
+}
